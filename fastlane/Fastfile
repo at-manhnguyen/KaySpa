@@ -1,0 +1,39 @@
+platform :ios do
+  
+#lane 1
+
+lane :Enterprise do
+
+  # build your iOS app
+  gym(
+    scheme: "TemplateProject",
+    export_method: "enterprise"
+  )
+
+  # upload to deploygate
+  deploygate(
+    api_token: "ac62ba5968baffca93860998a8b6205753ddf5c1",
+    user: "quangmanh",
+  )
+
+end
+
+#lane 2
+
+lane :Development do
+
+  # build your iOS app
+  gym(
+    scheme: "TemplateProject",
+    export_method: "development"
+  )
+
+  # upload to deploygate
+  deploygate(
+    api_token: "ac62ba5968baffca93860998a8b6205753ddf5c1",
+    user: "quangmanh",
+  )
+
+end
+
+end
