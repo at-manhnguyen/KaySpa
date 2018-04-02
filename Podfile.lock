@@ -3,8 +3,10 @@ PODS:
   - AlamofireObjectMapper (5.0.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.0)
+  - ESTabBarController-swift (2.5)
   - FSPagerView (0.7.1)
   - JTMaterialTransition (2.0.1)
+  - LTMorphingLabel (0.5.6)
   - NVActivityIndicatorView (4.1.1):
     - NVActivityIndicatorView/Presenter (= 4.1.1)
   - NVActivityIndicatorView/Presenter (4.1.1)
@@ -14,20 +16,24 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
+  - ESTabBarController-swift
   - FSPagerView (~> 0.7)
   - JTMaterialTransition
+  - LTMorphingLabel
   - NVActivityIndicatorView
   - SwiftUtils
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  ESTabBarController-swift: 8daa432f2a9be8ebd25101dc46c84472fd760512
   FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
   JTMaterialTransition: 2350b44b404d1982a7ba755866cc65da452f4eec
+  LTMorphingLabel: bdb51d4682e9822da89da6f567bd8aa456fd6650
   NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   SwiftUtils: b009d391fb2e285392f114238f8b55d2750b80f0
 
-PODFILE CHECKSUM: 8b05efd23cef8180d966b677100796bc51afe322
+PODFILE CHECKSUM: d4029ac3dce4bc948a9a9268c03e95f27a13587b
 
 COCOAPODS: 1.4.0

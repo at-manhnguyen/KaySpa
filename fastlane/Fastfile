@@ -6,7 +6,7 @@ lane :Enterprise do
 
   # build your iOS app
   gym(
-    scheme: "TemplateProject",
+    scheme: "KaySpa",
     export_method: "enterprise"
   )
 
@@ -24,7 +24,7 @@ lane :Development do
 
   # build your iOS app
   gym(
-    scheme: "TemplateProject",
+    scheme: "KaySpa",
     export_method: "development"
   )
 

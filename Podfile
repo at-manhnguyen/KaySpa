@@ -20,4 +20,6 @@ target 'KaySpa' do
     pod 'JTMaterialTransition'
     pod 'NVActivityIndicatorView'
     pod 'FSPagerView', '~> 0.7'
+    pod 'LTMorphingLabel'
+    pod 'ESTabBarController-swift'
 end

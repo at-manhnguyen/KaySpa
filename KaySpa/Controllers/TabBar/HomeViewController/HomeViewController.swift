@@ -1,25 +1,26 @@
 //
-//  TemplateViewController.swift
+//  HomeViewController.swift
 //  Template
 //
-//  Created by Nguyen Quang Manh on 3/22/18.
+//  Created by Nguyen Quang Manh on 3/15/18.
 //  Copyright © 2018 Vinmas. All rights reserved.
 //
 
 import UIKit
 
-class TemplateViewController: BaseViewController {
+class HomeViewController: BaseViewController {
 
     // MARK: - Define
     
     // MARK: - UI
-
+    
     // MARK: - Data
     
     // MARK: - Method
     // MARK: Life Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupUI()
         setupData()
     }
@@ -35,5 +36,4 @@ class TemplateViewController: BaseViewController {
     // MARK: Method
     
     // MARK: - Action
-
 }
